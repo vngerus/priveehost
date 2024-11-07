@@ -1,38 +1,7 @@
 import React from 'react';
+import { services } from '../data';
 
 const Services: React.FC = () => {
-    const services = [
-        {
-            title: "Optimal Performance",
-            description: "Our servers are optimized to deliver maximum speed and efficiency for your projects.",
-            icon: "/path/to/performance-icon.png", // Replace with the actual icon path
-        },
-        {
-            title: "Robust Security",
-            description: "We implement advanced security measures to protect your data and ensure the integrity of your information.",
-            icon: "/path/to/security-icon.png", // Replace with the actual icon path
-        },
-        {
-            title: "24/7 Support",
-            description: "Our expert team is available 24/7 to assist you with all your needs.",
-            icon: "/path/to/support-icon.png", // Replace with the actual icon path
-        },
-        {
-            title: "Flexible Scalability",
-            description: "Our solutions grow with your business, allowing for seamless scalability.",
-            icon: "/path/to/scalability-icon.png", // Replace with the actual icon path
-        },
-        {
-            title: "Easy Integration",
-            description: "We provide tools that make integrating your applications and services efficient and straightforward.",
-            icon: "/path/to/integration-icon.png", // Replace with the actual icon path
-        },
-        {
-            title: "Free SSL Certificates",
-            description: "We offer free SSL certificates to ensure the trust and security of your visitors.",
-            icon: "/path/to/ssl-icon.png", // Replace with the actual icon path
-        },
-    ];
 
     return (
         <div className="py-16 bg-gray-100 px-4 md:px-8 lg:px-16">

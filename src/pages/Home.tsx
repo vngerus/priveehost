@@ -7,8 +7,8 @@ const Home: React.FC = () => {
         <div>
             <Navbar />
             <Hero />
-            <Services />
             <Pircing />
+            <Services />
             <Contact />
             <Footer />
         </div>

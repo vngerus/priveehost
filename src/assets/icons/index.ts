@@ -1,1 +1,8 @@
 export { default as logo } from './logo.webp'
+export { default as chip } from './chip.svg'
+export { default as dashboard } from './dashboard.svg'
+export { default as dashboard2 } from './dashboard2.svg'
+export { default as micro } from './micro.svg'
+export { default as repair } from './repair.svg'
+export { default as safe } from './safe.svg'
+export { default as shield } from './shield.svg'

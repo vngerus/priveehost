@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      zIndex: {
+        '100': '100',
+        },
       colors: {
         primary: {
           DEFAULT: '#1C3A6E', // Azul Oscuro
